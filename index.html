@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h5>Viewers</h5>
+    <form action="">
+        <label for="">Number of Images</label>
+        <input type="number" id="displayNumber">
+        <button type="button" onclick="onDisplay()">displayImages</button>
+    </form>
+
+    <h5>Images</h5>
+    <p id="invNumber"></p>
+    <table border="1">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="colage1.jpeg" alt="">   
+                </td>
+                <td>
+                    <img src="colage2.jpeg" alt="">   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="colage2.jpeg" alt="">
+                </td>   
+                <td>
+                    <img src="colage1.jpeg" alt="">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
